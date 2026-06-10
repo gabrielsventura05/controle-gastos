@@ -1,0 +1,154 @@
+body { 
+    padding: 0 ; 
+    margin: 0 ; 
+} 
+
+.topo h1{
+     font-size:48px; 
+     font-weight:700; 
+    } 
+
+ .button-add { 
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    border: none; 
+    background-color: #16b336; 
+    color: #fff; 
+    font-size: 30px; 
+    cursor: pointer; 
+    display: block; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 5%;
+
+    
+}
+
+.months {
+
+    margin-top: 5%;
+    margin-bottom: 25%;
+
+}
+
+
+ .card-mes { 
+    width:80%;
+      margin:0 auto 25px;
+    border-radius:28px; 
+    padding: 0 20px; 
+    margin-bottom:22px; 
+    display:flex; 
+    align-items:center; 
+    justify-content:space-around ;
+     border:2px solid #ececec;
+    border-radius:24px;
+} 
+
+.card-mes a {
+
+    text-decoration: none;
+     display:flex; 
+    align-items:center; 
+    justify-content:space-around ;
+     
+      width:90%;
+}
+
+.esquerda { 
+    display: flex; 
+    align-items: center;
+     gap: 22px; 
+    } 
+    
+
+    .icone { 
+        
+    width: 72px; 
+    height: 72px; 
+    border-radius: 22px; 
+    background:#eef9f0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color:#16b336; 
+    font-size:40px; 
+
+} 
+
+.info {
+    
+
+    margin-top: 5%;
+    
+}
+
+.info h2 { 
+    color:#6d6d6d; 
+    font-size:15px; 
+} 
+
+.info p { 
+    color:#6d6d6d; 
+    font-size:18px; 
+} 
+
+.direita { 
+    text-align:right; 
+
+} 
+
+.direita span { 
+    color:#777; 
+    font-size:18px; 
+} 
+
+.valor { 
+    color:#16b336; 
+    font-size:26px; 
+    font-weight:700; 
+    margin-top:8px; 
+} 
+
+.seta { 
+    
+    margin-left:20px; 
+    color:#777; 
+    font-size:24px; 
+}
+
+.menu {
+    
+
+      position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+
+    background:#fff;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+     display:flex;
+    justify-content:space-around;
+
+    padding:18px 10px 30px;
+}
+
+.item-menu{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:8px;
+
+    color:#777;
+    font-size:18px;
+}
+
+.item-menu i{
+    font-size:30px;
+}
+
+.ativo{
+    color:#16b336;
+}
