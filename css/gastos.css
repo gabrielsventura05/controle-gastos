@@ -7,6 +7,10 @@ body {
      font-size:48px; 
      font-weight:700; 
     } 
+.container-button {
+
+ display: flex; justify-content:flex-end ; margin-right: 5%;
+}
 
  .button-add { 
     width: 50px; 
@@ -20,7 +24,8 @@ body {
     display: block; 
     align-items: center; 
     justify-content: center; 
-    margin-right: 5%;
+    
+   
 
     
 }
@@ -34,10 +39,11 @@ body {
 
 
  .card-mes { 
+    
     width:80%;
       margin:0 auto 25px;
     border-radius:28px; 
-    padding: 0 20px; 
+    padding: 0 20px ; 
     margin-bottom:22px; 
     display:flex; 
     align-items:center; 
@@ -46,20 +52,23 @@ body {
     border-radius:24px;
 } 
 
-.card-mes a {
-
-    text-decoration: none;
+.months a {
+text-decoration: none;
      display:flex; 
     align-items:center; 
     justify-content:space-around ;
      
-      width:90%;
+      width:100%;
+
 }
 
+
 .esquerda { 
+    
     display: flex; 
     align-items: center;
-     gap: 22px; 
+     gap: 15px; 
+     
     } 
     
 
@@ -80,7 +89,7 @@ body {
 .info {
     
 
-    margin-top: 5%;
+    margin-top: 10%;
     
 }
 
