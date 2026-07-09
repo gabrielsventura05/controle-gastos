@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.container {
+
+    padding: 30px 20px;
+
+}
+
+
+
+.title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title h1 {
+
+    font-size: 30px;
+}
+
+.container-button {
+margin-top: 5%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+     cursor:pointer;
+}
+
+.container-button .btn-add {
+
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+     border:none;
+    border-radius:50%;
+     background:#16b336;
+    color:#fff;
+
+}
+
+.container-list {
+ 
+
+}
+
+.list-years {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 0 auto;
+    background-color: aqua;
+    padding-right: 0;
+    max-width: 918px;
+    
+}
+
+.card-year {
+background-color: #16b336;
+      width:45%;
+    height:200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
