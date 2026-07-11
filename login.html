@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/login.css">
+    <title>Ventura Expences</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="/img/carteira.png" alt="" srcset="">
+        </div>
+
+        <h1 class="text-center">VenturaExpences</h1>
+        <p class="text-center" >Controles seus gastos de forma<br>simples e organizada</p>
+        <div class="container-form">
+            <form action="validaLogin.php"  >
+            
+           
+            
+            <div class="input-box" >
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <input
+                style="
+    flex:1; /*ocupa todo o espaco disponivel dentro do container*/
+
+    margin:0 15px;
+
+    border:none;
+    outline:none;
+
+    background:none;
+
+    font-size:16px;
+" 
+                type="email" placeholder="E-mail">
+
+            </div>
+
+            
+         
+            <div class="input-box" style=" height:58px;
+
+    border-radius:18px;
+
+    background:#f5f5f5;
+
+    display:flex;
+    align-items:center;
+
+    padding:0 18px;
+">
+   <i class="fa-solid fa-lock"></i>
+                
+
+               
+                <input style="
+    flex:1;
+
+    margin:0 15px;
+
+    border:none;
+    outline:none;
+
+    background:none;
+
+    font-size:16px;
+" 
+
+type="password" placeholder="Senha">
+<i class="fa-solid fa-eye"></i>
+
+              
+            </div>
+            <input style="margin-top: 10%;  background:#16b336; border-radius: 5px; border: none;
+            padding: 3%; color: white;" type="submit" value="Enviar">
+
+           </form>
+
+         
+        </div>
+
+     
+          <div class="forgot-password" 
+          style="display: flex; 
+          justify-content: center; 
+          align-items: center;
+          margin-top: 7%;">
+            <a 
+            style="text-decoration: none; " 
+            href="forgotPassword">Esqueci a senha</a>
+
+           </div>
+
+            <div class="btn-google" style="display: flex; justify-content: center; align-items: center;
+           margin-top: 10%;">
+              <button 
+              style="display: flex; 
+              justify-content: center; 
+              align-items: center; 
+              width: 55%; 
+              gap: 5%; ">
+                
+              <a style="text-decoration: none; color: black;" href="Registrer"> Cadastrar</a>
+               </button>
+
+           </div>
+
+           <div class="btn-google" style="display: flex; justify-content: center; align-items: center;
+           margin-top: 5%;">
+              <button 
+              style="display: flex; 
+              justify-content: center; 
+              align-items: center; 
+              width: 55%; 
+              gap: 5%; ">
+                
+                <svg style="font-weight: bolder;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                </svg>
+                Entrar com Google</button>
+
+           </div>
+       
+    </div>
+    
+</body>
+</html>
