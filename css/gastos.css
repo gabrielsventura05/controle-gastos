@@ -52,6 +52,8 @@ body {
     border-radius:24px;
 } 
 
+
+
 .months a {
 text-decoration: none;
      display:flex; 
@@ -67,7 +69,8 @@ text-decoration: none;
     
     display: flex; 
     align-items: center;
-     gap: 15px; 
+    align-items: center;
+     
      
     } 
     
@@ -87,15 +90,17 @@ text-decoration: none;
 } 
 
 .info {
-    
 
-    margin-top: 10%;
-    
+   
+    padding: 15px;
 }
 
-.info h2 { 
+
+
+.esquerda > .info > h2 { 
     color:#6d6d6d; 
-    font-size:15px; 
+    font-size: 15px;
+    
 } 
 
 .info p { 
@@ -113,9 +118,9 @@ text-decoration: none;
     font-size:18px; 
 } 
 
-.valor { 
+.direita > .valor { 
     color:#16b336; 
-    font-size:26px; 
+    font-size:15px; 
     font-weight:700; 
     margin-top:8px; 
 } 
