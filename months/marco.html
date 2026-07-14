@@ -7,6 +7,7 @@
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
  <link rel="stylesheet" href="../css/marco.css">
  <link rel="stylesheet" href="../css/responsive.css">
     <title>Maio - 2024</title>
@@ -15,7 +16,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
     <div class="card-topo">
 
-    <h1>Maio 2024</h1>
+    <h1>março 2024</h1>
 
     <div class="total">
         <span>Total</span><br>
@@ -24,14 +25,43 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 </div>
 
+
+<!--BOTÃO MODAL-->
 <div class="btn ">
-    <button class="btn-add ">
+    <button class="btn-add " data-bs-toggle="modal" data-bs-target="#exampleModal">
     <i class="fa-solid fa-plus"></i>
-</button>
-
-
+    </button>
 
 </div>
+
+<!-----------COMEÇO MODAL------------>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title  fs-5"  id="exampleModalLabel">Adicionar compra</h1>
+        <button type="button" class="btn-close"  style="display: none;" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="registerExpence" method="post" >
+            <label for="">Local</label>
+            <input type="text" name="Local">
+            <label class="label-value" for="" >Valor</label>
+            <input type="text" name="valor" >
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class=" btn btn-secondary btn-cancel" data-bs-dismiss="modal" 
+        >Close</button>
+        <button type="button" class="btn btn-primary btn-save">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------FIM MODAL-------->
 
 
 <div class="container">
@@ -117,11 +147,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             <div class="valor">R$ 100,40</div>
         </div>
 
-      
-
-    
-
-</div>
+      </div>
 <div class="card-mes">
 
     <div class="esquerda">
@@ -154,7 +180,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       
 
         <div class="info">
-            <h2>Farmácia</h2>
+            <h2>Farmácia 1 de 3 </h2>
             
         </div>
 
@@ -180,7 +206,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       
 
         <div class="info">
-            <h2>Farmácia 1 de 2</h2>
+            <h2>Farmácia baiano 1 de 2</h2>
             
         </div>
 

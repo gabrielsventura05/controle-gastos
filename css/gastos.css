@@ -98,7 +98,7 @@ text-decoration: none;
 
 
 .esquerda > .info > h2 { 
-    color:#6d6d6d; 
+color: black;
     font-size: 15px;
     
 } 
@@ -114,8 +114,9 @@ text-decoration: none;
 } 
 
 .direita span { 
-    color:#777; 
+    color: black;
     font-size:18px; 
+    font-weight: bolder;
 } 
 
 .direita > .valor { 

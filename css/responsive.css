@@ -77,4 +77,11 @@
     .item-menu i{
         font-size:20px;
     }
+
+    .modal-footer > button {
+
+        border-radius: 10px;
+    }
+
+    
 }

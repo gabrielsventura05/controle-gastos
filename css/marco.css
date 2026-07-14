@@ -59,8 +59,8 @@ body{
 
 
  .btn-add { 
-   width: 30px;
-   height: 30px; 
+   width: 40px;
+   height: 40px; 
     border-radius: 50%; 
     border: none; 
     background-color:#16b336; 
@@ -124,31 +124,28 @@ text-decoration: none;
 
 .esquerda { 
 
-    width: 150px;
+    width: 100%;
     display: flex; 
     justify-content: start;
     align-items: center;
     margin-left: 5%;
+} 
     
-     
-     
-    } 
-    
-
-
-
 
 
 .info {
     
 
-    margin-top: 10%;
+    width: 100%;
     
 }
 
 .esquerda > .info > h2 { 
-    color:#6d6d6d; 
+    color: black;
     font-size:15px; 
+    display: flex;
+    align-items: center;
+
 } 
 
 .info p { 
@@ -158,23 +155,31 @@ text-decoration: none;
 
 .direita { 
 
-    display: flex;
-    justify-content: center;
-
+   flex: none;
+   width: 33%;
+    
 } 
 
-.direita span { 
+.direita > span { 
     color:#777; 
     font-size:18px; 
+    width: 50px;
+    
+    
 } 
 
 .direita > .valor { 
     color:#16b336; 
     
+    
     font-size:18px; 
-width: 150px;
+width: 90%;
     font-weight:700;
-    margin-left: 25%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    
+    
      
   
 } 
@@ -220,4 +225,77 @@ width: 150px;
 
 .ativo{
     color:#16b336;
+}
+
+
+/*CSS DO MODAL*/
+
+.modal-header  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.modal-body {
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body > form {
+        display: flex; 
+        flex-direction: column; 
+        margin: auto;
+
+}
+
+.modal-body > form > label{
+
+    font-weight: 600;
+}
+
+.modal-body > form > .label-value {
+
+    margin-top: 10%;
+}
+
+.modal-body > form > input {
+    
+    border: 1px solid rgb(138, 135, 135);
+    border-radius: 10px;
+    padding: 5px 30px;
+
+}
+
+.modal-footer {
+
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.modal-footer > .btn-cancel {
+
+    flex: 1; 
+    width: 100%; 
+    margin-left: 5%;
+        display: flex;
+        justify-content: center; 
+         background-color: #f1f3f5;
+    border: 1 solid black;
+    color: #495057;
+}
+
+.modal-footer > .btn-save {
+
+    flex: 1; width: 100%;
+        
+         display: flex;
+        justify-content: center; 
+        background-color: #16b336;
+        border-color: #16b336;
 }
