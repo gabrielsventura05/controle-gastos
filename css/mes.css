@@ -22,7 +22,7 @@ body{
 }
 
 .card-topo > h1{
-    font-size:30px;
+    font-size:25px;
     color:#111;
     margin-right: 15%;
 }
@@ -34,7 +34,7 @@ body{
 
 .total .value{
     color:#16b336;
-    font-size:20px;
+    font-size:18px;
     font-weight:bold;
 }
 
@@ -283,6 +283,7 @@ width: 90%;
     flex: 1; 
     width: 100%; 
     margin-left: 5%;
+    
         display: flex;
         justify-content: center; 
          background-color: #f1f3f5;
